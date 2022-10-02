@@ -18,7 +18,7 @@ def test_enter_in_field_and_clear_words():
     time.sleep(2)
     yandex_page.quit_from_browser()
 
-def test_search_keyboard_button():# тест по использованию клавиатуры
+def test_search_keyboard_button():# тест по поиску и клику на клавиатуру
     yandex_page = YandexSearcher()
     yandex_page.go_to_site()
     yandex_page.click_on_the_search_field()
